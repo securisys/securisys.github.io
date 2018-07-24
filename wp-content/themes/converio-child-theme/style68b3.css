@@ -1,0 +1,74 @@
+/*
+Theme Name: Converio Child Theme
+Theme URI: http: http://thememotive.com/
+Description: Child theme is the recommended way to modify an existing theme if you want to make changes in the theme.
+Author: ThemeMotive
+Author URI: http://thememotive.com/
+Template: converio
+Version: 1.0.0
+*/
+
+@import url("../converio/style.css");
+
+/*Add your custom styles below:*/
+
+.gmap {
+	height: 290px;
+}
+.breadcrumb {
+	background-image: url("../../uploads/2015/05/bread-crumb-bg.jpg");
+	background-color: none;
+}
+
+.breadcrumb::before {
+    background: none repeat scroll 0 0 rgba(0, 0, 20, 0.58);
+    content: "";
+    height: 100%;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+}
+#text-4 {
+    background-color: #eee;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 1em;
+}
+#text-4 .wpcf7-form-control-wrap>input{
+	float: left;
+}
+#text-4  .wpcf7-form-control.wpcf7-submit {
+	float: right;
+}
+#text-4 h3 {
+	color: #007071;
+	font-size: 1.25em;
+	padding-top: 0.5em;
+}
+.main-header {
+	height:100px;
+}
+header .title img {
+	max-height: 96px !important;
+}
+header.sticky .title img {
+	max-height: 90px!important;
+}
+a.btn.green {
+	background: #007071!important;
+}
+@media screen and (max-width: 980px) {
+	header .title img {
+		max-height: 70px!important;
+	}
+	.main-header {
+		height:150px;
+	}
+}
+a, a:hover {
+	color: #777;
+	text-decoration:none;
+}
